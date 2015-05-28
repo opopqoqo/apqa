@@ -12,3 +12,5 @@ typedef struct{
 
 bool disc_isPointInside(const disc* bounds,
 						const v2f* point);
+
+bool disc_perimeter(const disc* d);
