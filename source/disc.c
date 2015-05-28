@@ -2,8 +2,6 @@
 
 #import "math.h"
 
-#import "math.h"
-
 #import "disc.h"
 #import "vecmath2f.h"
 
