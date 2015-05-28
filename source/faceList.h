@@ -1,3 +1,4 @@
+// Copyright T.E.A de Souza 2012-2015 - MIT LICENSE
 
 #ifndef math_face_list_h
 #define math_face_list_h

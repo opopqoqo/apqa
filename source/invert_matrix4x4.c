@@ -1,3 +1,4 @@
+// Copyright T.E.A de Souza 2012-2015 - MIT LICENSE
 
 #import "invert_matrix4x4.h"
 #import <stdbool.h>

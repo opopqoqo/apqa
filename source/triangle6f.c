@@ -1,3 +1,4 @@
+// Copyright T.E.A de Souza 2012-2015 - MIT LICENSE
 
 #include "triangle6f.h"
 #include <stdio.h>

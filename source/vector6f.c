@@ -1,3 +1,4 @@
+// Copyright T.E.A de Souza 2012-2015 - MIT LICENSE
 
 #include "vector6f.h"
 #include "vecmath3f.h"

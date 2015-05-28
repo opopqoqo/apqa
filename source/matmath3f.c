@@ -1,3 +1,4 @@
+// Copyright T.E.A de Souza 2012-2015 - MIT LICENSE
 
 #import "matmath3f.h"
 #import "invert_matrix3x3.h"

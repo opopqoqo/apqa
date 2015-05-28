@@ -89,9 +89,7 @@
 		A935F11F192C7CDD0096E3A0 /* tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A935F120192C7CDD0096E3A0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A935F123192C7CDD0096E3A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A935F127192C7CDD0096E3A0 /* tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tests-Info.plist"; sourceTree = "<group>"; };
 		A935F129192C7CDD0096E3A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A935F12D192C7CDD0096E3A0 /* tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tests-Prefix.pch"; sourceTree = "<group>"; };
 		A95826F11932257300C9C80D /* matmath3fTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = matmath3fTest.m; sourceTree = "<group>"; };
 		A95D7CFE194459C800361921 /* ray3f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ray3f.h; sourceTree = "<group>"; };
 		A967F5BD19286FE3007DEE33 /* matmath4f_raw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = matmath4f_raw.h; path = source/matmath4f_raw.h; sourceTree = "<group>"; };
@@ -256,9 +254,7 @@
 		A935F126192C7CDD0096E3A0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A935F127192C7CDD0096E3A0 /* tests-Info.plist */,
 				A935F128192C7CDD0096E3A0 /* InfoPlist.strings */,
-				A935F12D192C7CDD0096E3A0 /* tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";

@@ -1,3 +1,4 @@
+// Copyright T.E.A de Souza 2012-2015 - MIT LICENSE
 
 #ifndef math_triangle3f_h
 #define math_triangle3f_h

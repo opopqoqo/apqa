@@ -1,3 +1,4 @@
+// Copyright T.E.A de Souza 2012-2015 - MIT LICENSE
 
 #ifndef math_vector6f_h
 #define math_vector6f_h
