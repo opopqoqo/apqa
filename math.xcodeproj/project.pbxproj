@@ -124,7 +124,6 @@
 		A9882D5A18F12C0700CC4BC7 /* disc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = disc.c; path = source/disc.c; sourceTree = SOURCE_ROOT; };
 		A9882D5B18F12C0700CC4BC7 /* vec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vec.c; path = source/vec.c; sourceTree = SOURCE_ROOT; };
 		A9882D5C18F12C0700CC4BC7 /* vecmath2f.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vecmath2f.c; path = source/vecmath2f.c; sourceTree = SOURCE_ROOT; };
-		A9882D5D18F12C0700CC4BC7 /* vecmath3f_deprecated.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vecmath3f_deprecated.c; path = source/vecmath3f_deprecated.c; sourceTree = SOURCE_ROOT; };
 		A9882D5E18F12C0700CC4BC7 /* vecmath3f.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vecmath3f.c; path = source/vecmath3f.c; sourceTree = SOURCE_ROOT; };
 		A9882D5F18F12C0700CC4BC7 /* vecmathf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vecmathf.c; path = source/vecmathf.c; sourceTree = SOURCE_ROOT; };
 		A9882D6018F12C0700CC4BC7 /* xmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmath.c; path = source/xmath.c; sourceTree = SOURCE_ROOT; };
@@ -375,7 +374,6 @@
 				A967F5C4192895F0007DEE33 /* matmath4f.c */,
 				A967F5BE19287006007DEE33 /* matmath4f_raw.c */,
 				A9882D5C18F12C0700CC4BC7 /* vecmath2f.c */,
-				A9882D5D18F12C0700CC4BC7 /* vecmath3f_deprecated.c */,
 				A9882D5E18F12C0700CC4BC7 /* vecmath3f.c */,
 				A9882D5F18F12C0700CC4BC7 /* vecmathf.c */,
 				A9882D6018F12C0700CC4BC7 /* xmath.c */,
