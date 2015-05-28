@@ -20,7 +20,6 @@
 		A935F124192C7CDD0096E3A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A935F123192C7CDD0096E3A0 /* UIKit.framework */; };
 		A935F12A192C7CDD0096E3A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A935F128192C7CDD0096E3A0 /* InfoPlist.strings */; };
 		A935F133192C80A10096E3A0 /* libmath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9882D2218F12A0100CC4BC7 /* libmath.a */; };
-		A951FD35192CB01A003296A7 /* matmath4fTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A935F12B192C7CDD0096E3A0 /* matmath4fTest.m */; };
 		A95826F21932257300C9C80D /* matmath3fTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A95826F11932257300C9C80D /* matmath3fTest.m */; };
 		A967F5BF19287006007DEE33 /* matmath4f_raw.c in Sources */ = {isa = PBXBuildFile; fileRef = A967F5BE19287006007DEE33 /* matmath4f_raw.c */; };
 		A967F5C5192895F0007DEE33 /* matmath4f.c in Sources */ = {isa = PBXBuildFile; fileRef = A967F5C4192895F0007DEE33 /* matmath4f.c */; };
@@ -92,7 +91,6 @@
 		A935F123192C7CDD0096E3A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A935F127192C7CDD0096E3A0 /* tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tests-Info.plist"; sourceTree = "<group>"; };
 		A935F129192C7CDD0096E3A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A935F12B192C7CDD0096E3A0 /* matmath4fTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = matmath4fTest.m; sourceTree = "<group>"; };
 		A935F12D192C7CDD0096E3A0 /* tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tests-Prefix.pch"; sourceTree = "<group>"; };
 		A95826F11932257300C9C80D /* matmath3fTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = matmath3fTest.m; sourceTree = "<group>"; };
 		A95D7CFE194459C800361921 /* ray3f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ray3f.h; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 		A9882D5A18F12C0700CC4BC7 /* disc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = disc.c; path = source/disc.c; sourceTree = SOURCE_ROOT; };
 		A9882D5B18F12C0700CC4BC7 /* vec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vec.c; path = source/vec.c; sourceTree = SOURCE_ROOT; };
 		A9882D5C18F12C0700CC4BC7 /* vecmath2f.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vecmath2f.c; path = source/vecmath2f.c; sourceTree = SOURCE_ROOT; };
-		A9882D5D18F12C0700CC4BC7 /* vecmath3f_deprecated.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vecmath3f_deprecated.c; path = source/vecmath3f_deprecated.c; sourceTree = SOURCE_ROOT; };
 		A9882D5E18F12C0700CC4BC7 /* vecmath3f.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vecmath3f.c; path = source/vecmath3f.c; sourceTree = SOURCE_ROOT; };
 		A9882D5F18F12C0700CC4BC7 /* vecmathf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vecmathf.c; path = source/vecmathf.c; sourceTree = SOURCE_ROOT; };
 		A9882D6018F12C0700CC4BC7 /* xmath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xmath.c; path = source/xmath.c; sourceTree = SOURCE_ROOT; };
@@ -247,7 +244,6 @@
 			isa = PBXGroup;
 			children = (
 				A95826F11932257300C9C80D /* matmath3fTest.m */,
-				A935F12B192C7CDD0096E3A0 /* matmath4fTest.m */,
 				A91AC371193C83B100C28B7F /* mesh6fTest.m */,
 				A935F126192C7CDD0096E3A0 /* Supporting Files */,
 				A9D2E3C4193DAE4B004D5984 /* triangle3fTest.m */,
@@ -378,7 +374,6 @@
 				A967F5C4192895F0007DEE33 /* matmath4f.c */,
 				A967F5BE19287006007DEE33 /* matmath4f_raw.c */,
 				A9882D5C18F12C0700CC4BC7 /* vecmath2f.c */,
-				A9882D5D18F12C0700CC4BC7 /* vecmath3f_deprecated.c */,
 				A9882D5E18F12C0700CC4BC7 /* vecmath3f.c */,
 				A9882D5F18F12C0700CC4BC7 /* vecmathf.c */,
 				A9882D6018F12C0700CC4BC7 /* xmath.c */,
@@ -499,7 +494,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A951FD35192CB01A003296A7 /* matmath4fTest.m in Sources */,
 				A9920ECD1947214800560B3B /* ray3fTest.m in Sources */,
 				A91AC372193C83B100C28B7F /* mesh6fTest.m in Sources */,
 				A9D2E3C5193DAE4B004D5984 /* triangle3fTest.m in Sources */,
@@ -574,13 +568,13 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_OPTIMIZATION_LEVEL = fast;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "tests/tests-Prefix.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "tests/tests-Info.plist";
+				INFOPLIST_FILE = "";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
@@ -599,9 +593,9 @@
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "tests/tests-Prefix.pch";
-				INFOPLIST_FILE = "tests/tests-Info.plist";
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
